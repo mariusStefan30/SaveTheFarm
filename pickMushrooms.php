@@ -1,0 +1,18 @@
+<?php
+  
+function pickMushrooms(){
+	// Write your code here:
+  global $location, $has_mushrooms;
+
+  if ( $location !== "woods"){
+    echo "These aren't any mushrooms to pick!\n";
+  } else {
+    echo "You pick some mushrooms.\n";
+    $has_mushrooms = TRUE;
+  }
+  
+  
+  
+  
+  
+}  
